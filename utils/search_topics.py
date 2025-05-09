@@ -48,8 +48,8 @@ def search_related(user_input):
     use_examples = similarities[top_indices[0]] >= similarity_threshold
 
     examples = "\n".join([
-            f"內容：{qa_content[i]}"
+            f"Content：{qa_content[i]}"
             for i in top_indices if similarities[i] >= similarity_threshold
-        ]) if use_examples else "（這次沒有相近的範例，請直接根據知識回答。）"
+        ]) if use_examples else "(There are no similar examples this time. Please answer directly based on your knowledge.)"
 
     return examples
