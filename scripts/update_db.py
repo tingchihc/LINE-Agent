@@ -31,7 +31,7 @@ clinent = OpenAI()
 
 """
 qa_upload = []
-with open("/home/user/TC/workstation/multi_agents_system/docs/qa.json", "r") as f:
+with open(".../docs/qa.json", "r") as f:
     qa = json.load(f)
 for id_, info in qa.items():
     q, a = info[0], info[-1]
@@ -45,7 +45,7 @@ client, db = connect_pymongo()
 
 """
 new_upload = []
-with open("/home/user/TC/workstation/multi_agents_system/docs/news_info.json", "r") as f:
+with open(".../docs/news_info.json", "r") as f:
     news = json.load(f)
 for id_, info in news.items():
     topic_emb = get_embedding(info["topic"])
