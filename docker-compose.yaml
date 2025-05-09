@@ -20,7 +20,7 @@ services:
   redis:
     image: redis
     ports:
-      - "6380:6379"  # 映射正確的 port，僅在你要從主機連 Redis 時有用
+      - "6380:6379"  
     networks:
       - app-network
 
