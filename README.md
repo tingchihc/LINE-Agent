@@ -18,5 +18,8 @@ This repository hosts a multi-agent system powered by Large Language Models (LLM
 
 This system is built for scalability, modularity, and extensibility—ideal for research, prototyping, or production use in real-world LLM-powered assistant applications.
 
+## How to use:
 
-  
+- Step 1. Terminal one: ```docker-compose up --build```  
+- Step 2. Terminal two: ```ngrok http 8501```
+- Step 3. 
