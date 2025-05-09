@@ -23,3 +23,7 @@ This system is built for scalability, modularity, and extensibility—ideal for 
 - Step 1. Terminal one: ```docker-compose up --build```  
 - Step 2. Terminal two: ```ngrok http 8501```
 - Step 3. Fill up LINE Webhook URL: ```https://xxxx-xxx-xx-xxx-xx.ngrok-free.app/webhook```
+
+## Acknowledge
+
+- [semantic-kerne](https://github.com/microsoft/semantic-kernel)
