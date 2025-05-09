@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "8501:8501"
+    depends_on:
+      - redis
+    restart: unless-stopped
+    environment:
+      REDIS_HOST: redis
+    networks:
+      - app-network
+
+  redis:
+    image: redis
+    ports:
+      - "6380:6379"  # 映射正確的 port，僅在你要從主機連 Redis 時有用
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

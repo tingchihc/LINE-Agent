@@ -1,0 +1,12 @@
+numpy==2.2.5
+openai==1.77.0
+pymongo==4.12.1
+python-dotenv==1.1.0
+semantic_kernel==1.29.0
+fastapi==0.115.12
+Flask==2
+uvicorn[standard]
+gradio
+requests
+line-bot-sdk
+redis
