@@ -1,3 +1,5 @@
+!(secret)[images/channel secret.png]
+
 ## 🔑 How to Get `LINE_CHANNEL_ACCESS_TOKEN` and `LINE_CHANNEL_SECRET`
 
 To integrate your LINE chatbot with your backend (e.g., FastAPI), you need two credentials from the [LINE Developers Console](https://developers.line.biz/console/):
