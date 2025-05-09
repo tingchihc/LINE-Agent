@@ -16,5 +16,5 @@ try:
     redis_client.ping()
 
 except Exception as e:
-    print("[Redis 連線失敗]", e)
+    print("[Redis connection error]", e)
     raise
