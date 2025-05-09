@@ -1,5 +1,7 @@
+# Screenshot
+
 ![Alt text](https://github.com/tingchihc/LINE-Agent/blob/3509ed4ffd1fc32c3cfa093f59fcc15688845e97/images/access%20token.png)
-![Alt text](https://github.com/tingchihc/LINE-Agent/blob/3509ed4ffd1fc32c3cfa093f59fcc15688845e97/images/access%20token.png)
+![Alt text](https://github.com/tingchihc/LINE-Agent/blob/901c43203240b8c36caea63bac244272510b2106/images/channel%20secret.png)
 
 ## 🔑 How to Get `LINE_CHANNEL_ACCESS_TOKEN` and `LINE_CHANNEL_SECRET`
 
